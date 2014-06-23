@@ -25,6 +25,7 @@ GEM
       activesupport (= 2.3.5)
       rake (>= 0.8.3)
     rake (0.8.7)
+    rubygems-update (1.4.2)
     rush (0.6.8)
       session
     session (3.1.0)
@@ -40,4 +41,5 @@ DEPENDENCIES
   nokogiri (= 1.5.10)
   rails (= 2.3.5)
   rake (= 0.8.7)
+  rubygems-update (~> 1.4.2)
   rush (= 0.6.8)

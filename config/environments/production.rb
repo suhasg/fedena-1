@@ -11,7 +11,7 @@ config.action_view.cache_template_loading            = true
 
 
 config.log_level = Logger::DEBUG
-config.logger = Logger.new(STDOUT)
+# config.logger = SyslogLogger.new
 
 # See everything in the log (default is :info)
 # config.log_level = :debug

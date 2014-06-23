@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (2.3.5)
       actionpack (= 2.3.5)
@@ -15,6 +15,7 @@ GEM
     fattr (2.2.1)
     i18n (0.4.2)
     mysql (2.8.1)
+    nokogiri (1.5.10)
     rack (1.0.1)
     rails (2.3.5)
       actionmailer (= 2.3.5)
@@ -36,6 +37,7 @@ DEPENDENCIES
   declarative_authorization (= 0.5.1)
   i18n (= 0.4.2)
   mysql (= 2.8.1)
+  nokogiri (= 1.5.10)
   rails (= 2.3.5)
   rake (= 0.8.7)
   rush (= 0.6.8)

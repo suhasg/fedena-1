@@ -8,6 +8,8 @@ GEM
       rack (~> 1.0.0)
     activerecord (2.3.5)
       activesupport (= 2.3.5)
+    activerecord-postgresql-adapter (0.0.1)
+      pg
     activeresource (2.3.5)
       activesupport (= 2.3.5)
     activesupport (2.3.5)
@@ -16,6 +18,7 @@ GEM
     i18n (0.4.2)
     mysql (2.8.1)
     nokogiri (1.5.10)
+    pg (0.17.1)
     rack (1.0.1)
     rails (2.3.5)
       actionmailer (= 2.3.5)
@@ -35,6 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-postgresql-adapter
   declarative_authorization (= 0.5.1)
   i18n (= 0.4.2)
   mysql (= 2.8.1)

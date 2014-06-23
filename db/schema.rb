@@ -139,7 +139,7 @@ ActiveRecord::Schema.define(:version => 20130110095412) do
     t.string   "fax"
     t.string   "photo_file_name"
     t.string   "photo_content_type"
-    t.binary   "photo_data",             :limit => 16777215
+    t.binary   "photo_data"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "photo_file_size"
@@ -209,7 +209,7 @@ ActiveRecord::Schema.define(:version => 20130110095412) do
     t.string   "email"
     t.string   "photo_file_name"
     t.string   "photo_content_type"
-    t.binary   "photo_data",           :limit => 16777215
+    t.binary   "photo_data"
     t.string   "status_description"
     t.boolean  "is_active",                                :default => true
     t.boolean  "is_deleted",                               :default => false
@@ -567,7 +567,7 @@ ActiveRecord::Schema.define(:version => 20130110095412) do
     t.string   "fax"
     t.string   "photo_file_name"
     t.string   "photo_content_type"
-    t.binary   "photo_data",             :limit => 16777215
+    t.binary   "photo_data"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "photo_file_size"

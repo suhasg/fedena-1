@@ -3,7 +3,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
 
-if Gem::VERSION == "1.4.2"
+if Gem::VERSION >= "1.4.2"
 module Rails
   class GemDependency
     def requirement
